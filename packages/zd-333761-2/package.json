@@ -2,6 +2,7 @@
   "dependencies": {
     "next": "14.1.4"
   },
+  "name": "zd-333761-2",
   "scripts": {
     "build": "next build",
     "dev": "next dev"
