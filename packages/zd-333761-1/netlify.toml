@@ -1,0 +1,14 @@
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  force = true
+  from = "/"
+  status = 200
+  to = "https://zd-319960-2.netlify.app/_marketing"
+
+[[redirects]]
+  force = true
+  from = "/_marketing/*"
+  status = 200
+  to = "https://zd-319960-2.netlify.app/_marketing/:splat"
